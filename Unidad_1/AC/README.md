@@ -17,7 +17,7 @@ En el código base que se te proporciona debes realizar los siguientes cambios:
 * Un encabezado de nivel 2 con el texto "Historia de HTML" antes de "Los inicios del lenguaje HTML..."
 * Un encabezado de nivel 2 con el texto "Versiones de HTML" antes de dos nuevos párrafos que contienen el texto "Tim Berners-Lee definió la primera versión de HTML en el año 1991" y "En la actualidad, la última versión de HTML es HTML5".
 El resultado final debe ser una página web que tenga el mismo aspecto que la siguiente imagen:
-![Alt aspecto ](/htmlimagen.png "Aspecto")
+![alt text](htmlimagen.png "Aspecto HTML")
 
 ---
 por [ale87kb](https://github.com/ale87kb) 😊
