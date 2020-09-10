@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro - Artesanías en madera</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+    <header>
+        <h1>Artesanías en madera</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registro.html">Regístrese</a>
+            <a href="sucursales.html">Sucursales</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank" id="form_registro">
+            <div><label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"></div>
+            <div><label for="apellido">Apellido: </label><input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"></div>
+            <div><label for="direccion">Dirección: </label><input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion"></div>
+            <div><label for="ciudad">Ciudad: </label><input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su ciudad" value="C.A.B.A."></div>
+            <div><label for="codigopostal">Código Postal: </label><input type="text" name="codigopostal" id="codigopostal" placeholder="Ingrese su codigo postal"></div>
+            <div><label for="fechanacimiento">Fecha de Nacimiento (mm/dd/yyyy): </label><input type="text" name="fechanacimiento" id="fechanacimiento"></div>
+            <p>Género
+                <input type="radio" name="genero" value="hombre" id="hombre" checked><label for="hombre">Hombre</label>
+                <input type="radio" name="genero" value="mujer" id="mujer" checked><label for="mujer">Mujer</label>
+                <input type="radio" name="genero" value="otro_genero" id="otro_genero"><label for="otro_genero">Otro</label>
+            </p>
+            <p>Estudios
+                <input type="checkbox" name="estudio" value="primarios" id="primarios"> <label for="primarios">Primarios</label>
+                <input type="checkbox" name="estudio" value="secundarios" id="secundarios"> <label for="secundarios">Secundarios</label>
+                <input type="checkbox" name="estudio" value="terciarios" id="terciarios"> <label for="terciarios">Terciarios</label>
+                <input type="checkbox" name="estudio" value="universitarios" id="universitarios"> <label for="universitarios">Universitarios</label>
+                <input type="checkbox" name="estudio" value="otro" id="otro_estudios"> <label for="otro_estudios">Otro</label>
+            </p>
+            <input type="submit" name="Enviar">
+        </form>
+        <p>Si usted hace click en el botón "Enviar", la información será enviada a la página "show_data.html"</p>
+    </section>
+    <footer>
+        <div id="social">
+            <a href="https://www.facebook.com/pagual.ar" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/pagual.ar/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:pagualinfo@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+        <p>Derechos reservados @2020</p>
+    </footer>
+</body>
+</html>

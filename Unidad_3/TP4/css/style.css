@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, sand-serif;
+}
+header{
+    width: 100%;
+    font-family: Arial, sand-serif;
+    background-color: #9f5e37;
+    padding-top: 20px;
+    text-align: center;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+nav{
+    display: inline-block;
+    margin-top: 25px;
+}
+nav a{
+    color:#fff;
+    display: inline-block;
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: #a4633c;
+    border-radius: 15px;
+}
+nav a:hover{
+    background-color: #753813;
+}
+header h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+section {
+    margin: 40px 20px;
+}
+section h2{}
+section img{
+    margin:10px auto;
+    display: block;
+    width: 200px;
+}
+section a{
+    padding: 20px 25px;
+    background-color: #753813;
+}
+section a:hover{
+    background-color: #51260b;
+}
+footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #9f5e37;
+    margin-top: 10px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+#social{
+    font-size: 2em;
+    text-align: center;
+    margin:0 auto;
+}
+#social a:hover{
+    color: #753813;
+}
+#sucursales p a{
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#form_registro{
+
+}
+#form_registro div{
+    margin:5px 10px 20px 10px;
+}
+#form_registro div label{
+    min-width: 270px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+#form_registro div input{
+    padding:5px;
+}
+.producto{
+    width: 250px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.producto a{
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
