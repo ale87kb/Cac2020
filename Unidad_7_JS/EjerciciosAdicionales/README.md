@@ -2,7 +2,7 @@
 
 _Ejercitación adicional de la Unidad 1 de JavaScript del curso de Front End Python dictado por Codo a Codo 2020_
 
-**Se pueden ejecutar desde el _index.html_ descargando los archivos correspondientes (_index.html_ y _ejercicioNumero.js_) y descomentando el script que lo integra en el _<head>_ del HTML.**
+**Se pueden ejecutar desde el _index.html_ descargando los archivos correspondientes (_index.html_ y _ejercicioNumero.js_) y descomentando el script que lo integra en el _&lt;head&gt;_ del HTML.**
 
 ## Enunciados
 
@@ -50,9 +50,9 @@ _Ejercitación adicional de la Unidad 1 de JavaScript del curso de Front End Pyt
     * 7-9: Notable
     * 9-10: Sobresaliente
 
-20. Realiza un script que pida cadenas de texto hasta que se pulse _"Cancelar"_. Al salir con _"cancelar"_ deben mostrarse todas las cadenas concatenadas con un guión.
+20. Realiza un script que pida cadenas de texto hasta que se pulse _"Cancelar"_. Al salir con _"Cancelar"_ deben mostrarse todas las cadenas concatenadas con un guión.
 
-21. Realiza un script que pida números hasta que se pulse _"cancelar"_. Si no es un número deberá indicarse con un _"alert"_ y seguir pidiendo. Al salir con _"cancelar"_ deberá indicarse la suma total de los números introducidos.
+21. Realiza un script que pida números hasta que se pulse _"Cancelar"_. Si no es un número deberá indicarse con un _"alert"_ y seguir pidiendo. Al salir con _"Cancelar"_ deberá indicarse la suma total de los números introducidos.
 
 22. Realizar una página con un script que calcule el valor de la letra de un número de DNI (Documento nacional de indentidad).
     El algoritmo para calcular la letra del dni es el siguiente:
@@ -60,7 +60,7 @@ _Ejercitación adicional de la Unidad 1 de JavaScript del curso de Front End Pyt
     * Debemos calcular el resto de la división entera entre el número y el número 23.
     * Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes: (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)
     * Si lo introducido no es un número deberá indicarse con un _"alert"_ y volver a preguntar.
-    * Deberá de repetirse el proceso hasta que el usuario pulse _"cancelar"_.
+    * Deberá de repetirse el proceso hasta que el usuario pulse _"Cancelar"_.
 
 23. Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma:
     ```
@@ -70,7 +70,7 @@ _Ejercitación adicional de la Unidad 1 de JavaScript del curso de Front End Pyt
     4444
     55555
     666666
-    …….
+    ……
     ```
 
 24. Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario de la siguiente forma: (suponiendo que indica 6).
@@ -99,11 +99,10 @@ _Ejercitación adicional de la Unidad 1 de JavaScript del curso de Front End Pyt
     1
     2
     3
-    4
-    (Múltiplo de 4)
-    5-
+    4 (Múltiplo de 4)
+    5
     
-    ————————————————————-
+    ————————————————————
     6
     7
     8 (Múltiplo de 4)
